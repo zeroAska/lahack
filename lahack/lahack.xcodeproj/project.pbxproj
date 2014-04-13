@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEC3EB6D18F9F32800D919D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB6C18F9F32800D919D6 /* Foundation.framework */; };
+		FEC3EB6F18F9F32800D919D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB6E18F9F32800D919D6 /* CoreGraphics.framework */; };
+		FEC3EB7118F9F32800D919D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB7018F9F32800D919D6 /* UIKit.framework */; };
+		FEC3EB7718F9F32800D919D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEC3EB7518F9F32800D919D6 /* InfoPlist.strings */; };
+		FEC3EB7918F9F32800D919D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EB7818F9F32800D919D6 /* main.m */; };
+		FEC3EB7D18F9F32800D919D6 /* BluetoothAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EB7C18F9F32800D919D6 /* BluetoothAppDelegate.m */; };
+		FEC3EB8018F9F32800D919D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC3EB7E18F9F32800D919D6 /* Main.storyboard */; };
+		FEC3EB8318F9F32800D919D6 /* BluetoothFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EB8218F9F32800D919D6 /* BluetoothFirstViewController.m */; };
+		FEC3EB8618F9F32800D919D6 /* BluetoothSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EB8518F9F32800D919D6 /* BluetoothSecondViewController.m */; };
+		FEC3EB8818F9F32800D919D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC3EB8718F9F32800D919D6 /* Images.xcassets */; };
+		FEC3EB8F18F9F32800D919D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB8E18F9F32800D919D6 /* XCTest.framework */; };
+		FEC3EB9018F9F32800D919D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB6C18F9F32800D919D6 /* Foundation.framework */; };
+		FEC3EB9118F9F32800D919D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB7018F9F32800D919D6 /* UIKit.framework */; };
+		FEC3EB9918F9F32800D919D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEC3EB9718F9F32800D919D6 /* InfoPlist.strings */; };
+		FEC3EB9B18F9F32800D919D6 /* lahackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EB9A18F9F32800D919D6 /* lahackTests.m */; };
+		FEC3EBA618F9F4BB00D919D6 /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EBA518F9F4BB00D919D6 /* ConnectionsViewController.m */; };
+		FEC3EBA918FA09ED00D919D6 /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EBA818FA09ED00D919D6 /* MCManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEC3EB9218F9F32800D919D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC3EB6118F9F32800D919D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC3EB6818F9F32800D919D6;
+			remoteInfo = lahack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEC3EB6918F9F32800D919D6 /* lahack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lahack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC3EB6C18F9F32800D919D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEC3EB6E18F9F32800D919D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEC3EB7018F9F32800D919D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEC3EB7418F9F32800D919D6 /* lahack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lahack-Info.plist"; sourceTree = "<group>"; };
+		FEC3EB7618F9F32800D919D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEC3EB7818F9F32800D919D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEC3EB7A18F9F32800D919D6 /* lahack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lahack-Prefix.pch"; sourceTree = "<group>"; };
+		FEC3EB7B18F9F32800D919D6 /* BluetoothAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothAppDelegate.h; sourceTree = "<group>"; };
+		FEC3EB7C18F9F32800D919D6 /* BluetoothAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothAppDelegate.m; sourceTree = "<group>"; };
+		FEC3EB7F18F9F32800D919D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEC3EB8118F9F32800D919D6 /* BluetoothFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothFirstViewController.h; sourceTree = "<group>"; };
+		FEC3EB8218F9F32800D919D6 /* BluetoothFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothFirstViewController.m; sourceTree = "<group>"; };
+		FEC3EB8418F9F32800D919D6 /* BluetoothSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothSecondViewController.h; sourceTree = "<group>"; };
+		FEC3EB8518F9F32800D919D6 /* BluetoothSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothSecondViewController.m; sourceTree = "<group>"; };
+		FEC3EB8718F9F32800D919D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEC3EB8D18F9F32800D919D6 /* lahackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lahackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC3EB8E18F9F32800D919D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FEC3EB9618F9F32800D919D6 /* lahackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lahackTests-Info.plist"; sourceTree = "<group>"; };
+		FEC3EB9818F9F32800D919D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEC3EB9A18F9F32800D919D6 /* lahackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lahackTests.m; sourceTree = "<group>"; };
+		FEC3EBA418F9F4BB00D919D6 /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsViewController.h; sourceTree = "<group>"; };
+		FEC3EBA518F9F4BB00D919D6 /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsViewController.m; sourceTree = "<group>"; };
+		FEC3EBA718FA09ED00D919D6 /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		FEC3EBA818FA09ED00D919D6 /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC3EB6618F9F32800D919D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3EB6F18F9F32800D919D6 /* CoreGraphics.framework in Frameworks */,
+				FEC3EB7118F9F32800D919D6 /* UIKit.framework in Frameworks */,
+				FEC3EB6D18F9F32800D919D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC3EB8A18F9F32800D919D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3EB8F18F9F32800D919D6 /* XCTest.framework in Frameworks */,
+				FEC3EB9118F9F32800D919D6 /* UIKit.framework in Frameworks */,
+				FEC3EB9018F9F32800D919D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC3EB6018F9F32800D919D6 = {
+			isa = PBXGroup;
+			children = (
+				FEC3EBA718FA09ED00D919D6 /* MCManager.h */,
+				FEC3EBA818FA09ED00D919D6 /* MCManager.m */,
+				FEC3EB7218F9F32800D919D6 /* lahack */,
+				FEC3EB9418F9F32800D919D6 /* lahackTests */,
+				FEC3EB6B18F9F32800D919D6 /* Frameworks */,
+				FEC3EB6A18F9F32800D919D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC3EB6A18F9F32800D919D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3EB6918F9F32800D919D6 /* lahack.app */,
+				FEC3EB8D18F9F32800D919D6 /* lahackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC3EB6B18F9F32800D919D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3EB6C18F9F32800D919D6 /* Foundation.framework */,
+				FEC3EB6E18F9F32800D919D6 /* CoreGraphics.framework */,
+				FEC3EB7018F9F32800D919D6 /* UIKit.framework */,
+				FEC3EB8E18F9F32800D919D6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEC3EB7218F9F32800D919D6 /* lahack */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3EB7B18F9F32800D919D6 /* BluetoothAppDelegate.h */,
+				FEC3EB7C18F9F32800D919D6 /* BluetoothAppDelegate.m */,
+				FEC3EB7E18F9F32800D919D6 /* Main.storyboard */,
+				FEC3EB8118F9F32800D919D6 /* BluetoothFirstViewController.h */,
+				FEC3EB8218F9F32800D919D6 /* BluetoothFirstViewController.m */,
+				FEC3EB8418F9F32800D919D6 /* BluetoothSecondViewController.h */,
+				FEC3EB8518F9F32800D919D6 /* BluetoothSecondViewController.m */,
+				FEC3EBA418F9F4BB00D919D6 /* ConnectionsViewController.h */,
+				FEC3EBA518F9F4BB00D919D6 /* ConnectionsViewController.m */,
+				FEC3EB8718F9F32800D919D6 /* Images.xcassets */,
+				FEC3EB7318F9F32800D919D6 /* Supporting Files */,
+			);
+			path = lahack;
+			sourceTree = "<group>";
+		};
+		FEC3EB7318F9F32800D919D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3EB7418F9F32800D919D6 /* lahack-Info.plist */,
+				FEC3EB7518F9F32800D919D6 /* InfoPlist.strings */,
+				FEC3EB7818F9F32800D919D6 /* main.m */,
+				FEC3EB7A18F9F32800D919D6 /* lahack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEC3EB9418F9F32800D919D6 /* lahackTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3EB9A18F9F32800D919D6 /* lahackTests.m */,
+				FEC3EB9518F9F32800D919D6 /* Supporting Files */,
+			);
+			path = lahackTests;
+			sourceTree = "<group>";
+		};
+		FEC3EB9518F9F32800D919D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3EB9618F9F32800D919D6 /* lahackTests-Info.plist */,
+				FEC3EB9718F9F32800D919D6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC3EB6818F9F32800D919D6 /* lahack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC3EB9E18F9F32800D919D6 /* Build configuration list for PBXNativeTarget "lahack" */;
+			buildPhases = (
+				FEC3EB6518F9F32800D919D6 /* Sources */,
+				FEC3EB6618F9F32800D919D6 /* Frameworks */,
+				FEC3EB6718F9F32800D919D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lahack;
+			productName = lahack;
+			productReference = FEC3EB6918F9F32800D919D6 /* lahack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEC3EB8C18F9F32800D919D6 /* lahackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC3EBA118F9F32800D919D6 /* Build configuration list for PBXNativeTarget "lahackTests" */;
+			buildPhases = (
+				FEC3EB8918F9F32800D919D6 /* Sources */,
+				FEC3EB8A18F9F32800D919D6 /* Frameworks */,
+				FEC3EB8B18F9F32800D919D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC3EB9318F9F32800D919D6 /* PBXTargetDependency */,
+			);
+			name = lahackTests;
+			productName = lahackTests;
+			productReference = FEC3EB8D18F9F32800D919D6 /* lahackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC3EB6118F9F32800D919D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Bluetooth;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ray Zhang";
+				TargetAttributes = {
+					FEC3EB8C18F9F32800D919D6 = {
+						TestTargetID = FEC3EB6818F9F32800D919D6;
+					};
+				};
+			};
+			buildConfigurationList = FEC3EB6418F9F32800D919D6 /* Build configuration list for PBXProject "lahack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC3EB6018F9F32800D919D6;
+			productRefGroup = FEC3EB6A18F9F32800D919D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC3EB6818F9F32800D919D6 /* lahack */,
+				FEC3EB8C18F9F32800D919D6 /* lahackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC3EB6718F9F32800D919D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3EB8818F9F32800D919D6 /* Images.xcassets in Resources */,
+				FEC3EB7718F9F32800D919D6 /* InfoPlist.strings in Resources */,
+				FEC3EB8018F9F32800D919D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC3EB8B18F9F32800D919D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3EB9918F9F32800D919D6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC3EB6518F9F32800D919D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3EB7918F9F32800D919D6 /* main.m in Sources */,
+				FEC3EBA918FA09ED00D919D6 /* MCManager.m in Sources */,
+				FEC3EB8318F9F32800D919D6 /* BluetoothFirstViewController.m in Sources */,
+				FEC3EBA618F9F4BB00D919D6 /* ConnectionsViewController.m in Sources */,
+				FEC3EB7D18F9F32800D919D6 /* BluetoothAppDelegate.m in Sources */,
+				FEC3EB8618F9F32800D919D6 /* BluetoothSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC3EB8918F9F32800D919D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3EB9B18F9F32800D919D6 /* lahackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEC3EB9318F9F32800D919D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC3EB6818F9F32800D919D6 /* lahack */;
+			targetProxy = FEC3EB9218F9F32800D919D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEC3EB7518F9F32800D919D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC3EB7618F9F32800D919D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEC3EB7E18F9F32800D919D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC3EB7F18F9F32800D919D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEC3EB9718F9F32800D919D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC3EB9818F9F32800D919D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEC3EB9C18F9F32800D919D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEC3EB9D18F9F32800D919D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC3EB9F18F9F32800D919D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lahack/lahack-Prefix.pch";
+				INFOPLIST_FILE = "lahack/lahack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEC3EBA018F9F32800D919D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lahack/lahack-Prefix.pch";
+				INFOPLIST_FILE = "lahack/lahack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FEC3EBA218F9F32800D919D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lahack.app/lahack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lahack/lahack-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "lahackTests/lahackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FEC3EBA318F9F32800D919D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lahack.app/lahack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lahack/lahack-Prefix.pch";
+				INFOPLIST_FILE = "lahackTests/lahackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC3EB6418F9F32800D919D6 /* Build configuration list for PBXProject "lahack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC3EB9C18F9F32800D919D6 /* Debug */,
+				FEC3EB9D18F9F32800D919D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC3EB9E18F9F32800D919D6 /* Build configuration list for PBXNativeTarget "lahack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC3EB9F18F9F32800D919D6 /* Debug */,
+				FEC3EBA018F9F32800D919D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEC3EBA118F9F32800D919D6 /* Build configuration list for PBXNativeTarget "lahackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC3EBA218F9F32800D919D6 /* Debug */,
+				FEC3EBA318F9F32800D919D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEC3EB6118F9F32800D919D6 /* Project object */;
+}

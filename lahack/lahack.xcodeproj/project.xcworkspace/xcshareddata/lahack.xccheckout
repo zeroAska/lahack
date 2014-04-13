@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1576CC95-C091-4087-A793-304C97ABE0F6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>lahack</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C794553-CF36-4282-8CE7-E84A3A92AD98</key>
+		<string>ssh://github.com/zeroAska/lahack.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>lahack/lahack.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C794553-CF36-4282-8CE7-E84A3A92AD98</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/zeroAska/lahack.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C794553-CF36-4282-8CE7-E84A3A92AD98</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C794553-CF36-4282-8CE7-E84A3A92AD98</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lahack</string>
+		</dict>
+	</array>
+</dict>
+</plist>
