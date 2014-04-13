@@ -31,11 +31,11 @@
     _FirstName.text = _ContactDetailModel[2];
      _LastName.text = _ContactDetailModel[3];
      _FirstName.text = _ContactDetailModel[4];
-     _FullName.text = _ContactDetailModel[5];
+     _FullName.topItem.title = _ContactDetailModel[5];
      _EmailAddress.text = _ContactDetailModel[6];
      _Company.text = _ContactDetailModel[7];
      _Position.text = _ContactDetailModel[8];
-     _isUpdated.on = _ContactDetailModel[9];
+     _isUpdated.on = [(NSNumber*)[_ContactDetailModel objectAtIndex:9] intValue];
     _ContactPhoto.image = [UIImage imageNamed:_ContactDetailModel[0]];
 }
 
