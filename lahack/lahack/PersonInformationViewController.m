@@ -34,18 +34,18 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)updateFirstName:(id)sender {
 }
-*/
+
 - (IBAction)updatePersonInfo:(id)sender {
+    _last_name = _LastName.text;
+    _first_name = _FirstName.text;
+    _middle_name = _MiddleName.text;
+    _workPhone = _PhoneNumber.text;
+    _emailAddress = [NSString stringWithFormat:@"%@%s%@",_EmailUserName.text, "@", _EmailHostName.text];
+    _company = _CompanyName.text;
+    _position_name = _Position.text;
+    //write to file
 }
 
 - (IBAction)cancelUpdateInfo:(id)sender {

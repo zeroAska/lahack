@@ -360,6 +360,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="updateFirstName:" destination="tIg-Gd-VxW" eventType="editingDidEnd" id="5pi-Hk-bZn"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A0n-gx-iZF">
                                 <rect key="frame" x="178" y="201" width="128" height="30"/>
@@ -445,6 +448,17 @@
                         </subviews>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="sHF-d0-inH"/>
+                    <connections>
+                        <outlet property="CompanyName" destination="FlS-MG-xcB" id="I5L-vc-HHT"/>
+                        <outlet property="EMailUserName" destination="Tke-vg-bNI" id="7am-Pq-V1I"/>
+                        <outlet property="EmailHostName" destination="JJD-BR-PMV" id="3Rg-gP-yVS"/>
+                        <outlet property="FirstName" destination="ATl-mp-nrq" id="7Kl-qW-bwf"/>
+                        <outlet property="LastName" destination="A0n-gx-iZF" id="JHH-8y-x2s"/>
+                        <outlet property="MiddleName" destination="wet-jB-Th0" id="1wz-2F-H9L"/>
+                        <outlet property="PhoneNumber" destination="q1E-k9-aaH" id="TJZ-O2-Tj3"/>
+                        <outlet property="Position" destination="Vn8-GW-UsU" id="5Ll-ug-AmW"/>
+                        <outlet property="image" destination="dOf-SM-V9T" id="L5Z-BP-1qs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ha-4P-yl4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <searchDisplayController id="ifp-X1-aQZ">
