@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D50625F918FA392B004BB775 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50625F818FA392B004BB775 /* ContactDetailViewController.m */; };
+		D5D5460F18FA681600975A97 /* PersonInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D5460E18FA681600975A97 /* PersonInformationViewController.m */; };
 		FEC3EB6D18F9F32800D919D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB6C18F9F32800D919D6 /* Foundation.framework */; };
 		FEC3EB6F18F9F32800D919D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB6E18F9F32800D919D6 /* CoreGraphics.framework */; };
 		FEC3EB7118F9F32800D919D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB7018F9F32800D919D6 /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		D50625F718FA392B004BB775 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
 		D50625F818FA392B004BB775 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		D5D5460D18FA681600975A97 /* PersonInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonInformationViewController.h; sourceTree = "<group>"; };
+		D5D5460E18FA681600975A97 /* PersonInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonInformationViewController.m; sourceTree = "<group>"; };
 		FEC3EB6918F9F32800D919D6 /* lahack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lahack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC3EB6C18F9F32800D919D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FEC3EB6E18F9F32800D919D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +129,8 @@
 		FEC3EB7218F9F32800D919D6 /* lahack */ = {
 			isa = PBXGroup;
 			children = (
+				D5D5460D18FA681600975A97 /* PersonInformationViewController.h */,
+				D5D5460E18FA681600975A97 /* PersonInformationViewController.m */,
 				FEC3EB7B18F9F32800D919D6 /* BluetoothAppDelegate.h */,
 				FEC3EB7C18F9F32800D919D6 /* BluetoothAppDelegate.m */,
 				FEC3EB7E18F9F32800D919D6 /* Main.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5D5460F18FA681600975A97 /* PersonInformationViewController.m in Sources */,
 				FEC3EB7918F9F32800D919D6 /* main.m in Sources */,
 				D50625F918FA392B004BB775 /* ContactDetailViewController.m in Sources */,
 				FEC3EBA918FA09ED00D919D6 /* MCManager.m in Sources */,
