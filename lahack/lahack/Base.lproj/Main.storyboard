@@ -129,7 +129,17 @@
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="Xfp-Ll-n94"/>
                     <connections>
+                        <outlet property="Company" destination="diu-LU-w0d" id="ZKe-qo-BCI"/>
+                        <outlet property="ContactPhoto" destination="bYg-Ee-rL2" id="0W4-oQ-BkR"/>
+                        <outlet property="EmailAddress" destination="US2-wC-lpL" id="OQb-9k-dsM"/>
+                        <outlet property="FirstName" destination="C17-Xq-Ggz" id="1Za-ad-G6X"/>
+                        <outlet property="FullName" destination="OfL-eA-uaC" id="0nY-TE-dqF"/>
+                        <outlet property="LastName" destination="ma4-b9-QMp" id="ZJ2-AC-e73"/>
+                        <outlet property="PhoneNumber" destination="tBR-js-Tfy" id="qYV-x2-lOV"/>
+                        <outlet property="Position" destination="JJR-si-jqV" id="aar-i8-Ryg"/>
+                        <outlet property="isUpdated" destination="Owo-KW-m1t" id="XVh-V9-AnJ"/>
                         <outlet property="searchDisplayController" destination="Kfr-Ld-iaI" id="tpm-HS-Ei9"/>
+                        <outlet property="view" destination="tBR-js-Tfy" id="WwC-O3-2Wd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gnK-lv-MNC" userLabel="First Responder" sceneMemberID="firstResponder"/>
