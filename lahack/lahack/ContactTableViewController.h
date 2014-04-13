@@ -10,4 +10,7 @@
 
 @interface ContactTableViewController : UITableViewController
 
+@property (nonatomic, strong) NSArray *names;
+//@property (nonatomic, strong) NSMutableArray *companies;
+
 @end

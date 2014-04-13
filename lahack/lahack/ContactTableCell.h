@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ContactTableCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *Name;
+@property (weak, nonatomic) IBOutlet UILabel *Company;
 
 @end

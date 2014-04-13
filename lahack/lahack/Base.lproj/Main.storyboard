@@ -19,15 +19,26 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vBK-D5-Hny" id="r4C-3m-mfR">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gt2-pv-Kc3">
+                                            <rect key="frame" x="20" y="11" width="46" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Company" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z7B-hK-mSF">
+                                            <rect key="frame" x="168" y="11" width="75" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KLC-4D-n9F" customClass="ContactTableCell">
-                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KLC-4D-n9F" id="tw3-Gt-Qdi">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="Company" destination="z7B-hK-mSF" id="hxS-YV-b19"/>
+                                    <outlet property="Name" destination="gt2-pv-Kc3" id="4l0-bC-r1J"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -36,6 +47,12 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Contact Table" id="bO6-ta-k5F"/>
+                    <connections>
+                        <outlet property="Company" destination="z7B-hK-mSF" id="p7P-BP-VA9"/>
+                        <outlet property="MyCompany" destination="z7B-hK-mSF" id="OAn-g0-bB8"/>
+                        <outlet property="MyName" destination="gt2-pv-Kc3" id="75q-sZ-zw6"/>
+                        <outlet property="Name" destination="gt2-pv-Kc3" id="zwI-b5-aDd"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c5p-r2-b40" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

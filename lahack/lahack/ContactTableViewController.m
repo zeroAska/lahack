@@ -23,6 +23,29 @@
     return self;
 }
 
+// go through all the files
+/*
++(void)openEachFileAt:(NSString*)path {
+NSString* file;
+NSDirectoryEnumerator* enumerator = [[NSFileManager defaultManager] enumeratorAtPath:path];
+while (file = [enumerator nextObject])
+{
+    // check if it's a directory
+    BOOL isDirectory = NO;
+    [[NSFileManager defaultManager] fileExistsAtPath: [NSString stringWithFormat:@"%@/%@",path,file]
+                                         isDirectory: &isDirectory];
+    if (!isDirectory)
+    {
+        // open your file …
+        [self->names ]
+    }
+    else
+    {
+        [self openEachFileAt: file];
+    }
+}
+}
+ */
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -32,6 +55,16 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+   // _names = [[NSMutableArray alloc] init ];
+    
+    NSString *path = [[[NSFileManager defaultManager] currentDirectoryPath]copy];
+    
+    // get the number of files in the folder
+   // int numOfFilesInFolder = [[[NSFileManager defaultManager] contentsOfDirectoryAtPath:path  error: Nil] count];
+    
+    _names = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:path error:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning
