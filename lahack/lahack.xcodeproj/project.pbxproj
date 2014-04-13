@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D50625F918FA392B004BB775 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50625F818FA392B004BB775 /* ContactDetailViewController.m */; };
 		FEC3EB6D18F9F32800D919D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB6C18F9F32800D919D6 /* Foundation.framework */; };
 		FEC3EB6F18F9F32800D919D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB6E18F9F32800D919D6 /* CoreGraphics.framework */; };
 		FEC3EB7118F9F32800D919D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB7018F9F32800D919D6 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D50625F718FA392B004BB775 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		D50625F818FA392B004BB775 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
 		FEC3EB6918F9F32800D919D6 /* lahack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lahack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC3EB6C18F9F32800D919D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FEC3EB6E18F9F32800D919D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +135,8 @@
 				FEC3EB8518F9F32800D919D6 /* BluetoothSecondViewController.m */,
 				FEC3EBA418F9F4BB00D919D6 /* ConnectionsViewController.h */,
 				FEC3EBA518F9F4BB00D919D6 /* ConnectionsViewController.m */,
+				D50625F718FA392B004BB775 /* ContactDetailViewController.h */,
+				D50625F818FA392B004BB775 /* ContactDetailViewController.m */,
 				FEC3EB8718F9F32800D919D6 /* Images.xcassets */,
 				FEC3EB7318F9F32800D919D6 /* Supporting Files */,
 			);
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC3EB7918F9F32800D919D6 /* main.m in Sources */,
+				D50625F918FA392B004BB775 /* ContactDetailViewController.m in Sources */,
 				FEC3EBA918FA09ED00D919D6 /* MCManager.m in Sources */,
 				FEC3EB8318F9F32800D919D6 /* BluetoothFirstViewController.m in Sources */,
 				FEC3EBA618F9F4BB00D919D6 /* ConnectionsViewController.m in Sources */,
@@ -475,6 +481,7 @@
 				FEC3EBA018F9F32800D919D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEC3EBA118F9F32800D919D6 /* Build configuration list for PBXNativeTarget "lahackTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +490,7 @@
 				FEC3EBA318F9F32800D919D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
