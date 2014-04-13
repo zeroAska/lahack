@@ -46,11 +46,20 @@
     _company = _CompanyName.text;
     _position_name = _Position.text;
     //write to file
+    NSArray *paths = NSSearchPathForDirectoriesInDomains
+    (NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    
+    //make a file name to write the data to using the documents directory:
+    NSString *fileName = [NSString stringWithFormat:@"%@/myCard.txt",
+                          documentsDirectory];
+    //create content - four lines of text
+    NSString *content = [NSString stringWithFormat:@"%@%s%@%s%@%s%@%s%@%s%@%s%@",_last_name, "\n", _first_name, "\n", _middle_name, "\n", _workPhone, "\n", _emailAddress, "\n", _company, "\n", _position_name];
+    //save content to the documents directory
+    [content writeToFile:fileName
+              atomically:NO
+                encoding:NSStringEncodingConversionAllowLossy
+                   error:nil];
 }
-
-- (IBAction)cancelUpdateInfo:(id)sender {
-}
-
-
 
 @end

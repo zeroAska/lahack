@@ -31,6 +31,16 @@
                                 <fontDescription key="fontDescription" type="system" size="system"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhQ-5F-bbf">
+                                <rect key="frame" x="32" y="36" width="113" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Update My Card">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tIg-Gd-VxW" kind="push" id="4JY-on-ahV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -43,10 +53,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Chat Box" image="first" id="u1e-5L-l1D"/>
+                    <navigationItem key="navigationItem" id="IWI-5d-djB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653" y="-138"/>
+            <point key="canvasLocation" x="661" y="-138"/>
         </scene>
         <!--Contact Detail View Controller - Title-->
         <scene sceneID="7nk-KP-A48">
@@ -268,7 +279,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653" y="498"/>
+            <point key="canvasLocation" x="653" y="526"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -421,6 +432,7 @@
                                 </state>
                                 <connections>
                                     <action selector="updatePersonInfo:" destination="tIg-Gd-VxW" eventType="touchUpInside" id="ku3-bK-emU"/>
+                                    <segue destination="CZ4-MO-1fc" kind="push" id="RwY-IE-9t0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFE-l5-qp2">
@@ -431,6 +443,7 @@
                                 </state>
                                 <connections>
                                     <action selector="cancelUpdateInfo:" destination="tIg-Gd-VxW" eventType="touchUpInside" id="Psk-Yx-Otv"/>
+                                    <segue destination="CZ4-MO-1fc" kind="push" id="RQE-5Z-lnO"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wet-jB-Th0">
@@ -482,4 +495,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="RwY-IE-9t0"/>
+    </inferredMetricsTieBreakers>
 </document>
