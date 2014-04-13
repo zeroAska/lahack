@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47BA8DE818FA7C040026DBF4 /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BA8DE718FA7C040026DBF4 /* ContactTableViewController.m */; };
+		47BA8DEE18FA7C7C0026DBF4 /* ContactTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BA8DED18FA7C7C0026DBF4 /* ContactTableCell.m */; };
 		D50625F918FA392B004BB775 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50625F818FA392B004BB775 /* ContactDetailViewController.m */; };
 		FEC3EB6D18F9F32800D919D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB6C18F9F32800D919D6 /* Foundation.framework */; };
 		FEC3EB6F18F9F32800D919D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB6E18F9F32800D919D6 /* CoreGraphics.framework */; };
@@ -15,7 +17,6 @@
 		FEC3EB7918F9F32800D919D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EB7818F9F32800D919D6 /* main.m */; };
 		FEC3EB7D18F9F32800D919D6 /* BluetoothAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EB7C18F9F32800D919D6 /* BluetoothAppDelegate.m */; };
 		FEC3EB8018F9F32800D919D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC3EB7E18F9F32800D919D6 /* Main.storyboard */; };
-		FEC3EB8318F9F32800D919D6 /* BluetoothFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EB8218F9F32800D919D6 /* BluetoothFirstViewController.m */; };
 		FEC3EB8618F9F32800D919D6 /* BluetoothSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EB8518F9F32800D919D6 /* BluetoothSecondViewController.m */; };
 		FEC3EB8818F9F32800D919D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC3EB8718F9F32800D919D6 /* Images.xcassets */; };
 		FEC3EB8F18F9F32800D919D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3EB8E18F9F32800D919D6 /* XCTest.framework */; };
@@ -38,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47BA8DE618FA7C040026DBF4 /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewController.h; sourceTree = "<group>"; };
+		47BA8DE718FA7C040026DBF4 /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewController.m; sourceTree = "<group>"; };
+		47BA8DEC18FA7C7C0026DBF4 /* ContactTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableCell.h; sourceTree = "<group>"; };
+		47BA8DED18FA7C7C0026DBF4 /* ContactTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableCell.m; sourceTree = "<group>"; };
 		D50625F718FA392B004BB775 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
 		D50625F818FA392B004BB775 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
 		FEC3EB6918F9F32800D919D6 /* lahack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lahack.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,8 +56,6 @@
 		FEC3EB7B18F9F32800D919D6 /* BluetoothAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothAppDelegate.h; sourceTree = "<group>"; };
 		FEC3EB7C18F9F32800D919D6 /* BluetoothAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothAppDelegate.m; sourceTree = "<group>"; };
 		FEC3EB7F18F9F32800D919D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FEC3EB8118F9F32800D919D6 /* BluetoothFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothFirstViewController.h; sourceTree = "<group>"; };
-		FEC3EB8218F9F32800D919D6 /* BluetoothFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothFirstViewController.m; sourceTree = "<group>"; };
 		FEC3EB8418F9F32800D919D6 /* BluetoothSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothSecondViewController.h; sourceTree = "<group>"; };
 		FEC3EB8518F9F32800D919D6 /* BluetoothSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothSecondViewController.m; sourceTree = "<group>"; };
 		FEC3EB8718F9F32800D919D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -129,8 +132,10 @@
 				FEC3EB7B18F9F32800D919D6 /* BluetoothAppDelegate.h */,
 				FEC3EB7C18F9F32800D919D6 /* BluetoothAppDelegate.m */,
 				FEC3EB7E18F9F32800D919D6 /* Main.storyboard */,
-				FEC3EB8118F9F32800D919D6 /* BluetoothFirstViewController.h */,
-				FEC3EB8218F9F32800D919D6 /* BluetoothFirstViewController.m */,
+				47BA8DE618FA7C040026DBF4 /* ContactTableViewController.h */,
+				47BA8DE718FA7C040026DBF4 /* ContactTableViewController.m */,
+				47BA8DEC18FA7C7C0026DBF4 /* ContactTableCell.h */,
+				47BA8DED18FA7C7C0026DBF4 /* ContactTableCell.m */,
 				FEC3EB8418F9F32800D919D6 /* BluetoothSecondViewController.h */,
 				FEC3EB8518F9F32800D919D6 /* BluetoothSecondViewController.m */,
 				FEC3EBA418F9F4BB00D919D6 /* ConnectionsViewController.h */,
@@ -271,9 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC3EB7918F9F32800D919D6 /* main.m in Sources */,
+				47BA8DEE18FA7C7C0026DBF4 /* ContactTableCell.m in Sources */,
+				47BA8DE818FA7C040026DBF4 /* ContactTableViewController.m in Sources */,
 				D50625F918FA392B004BB775 /* ContactDetailViewController.m in Sources */,
 				FEC3EBA918FA09ED00D919D6 /* MCManager.m in Sources */,
-				FEC3EB8318F9F32800D919D6 /* BluetoothFirstViewController.m in Sources */,
 				FEC3EBA618F9F4BB00D919D6 /* ConnectionsViewController.m in Sources */,
 				FEC3EB7D18F9F32800D919D6 /* BluetoothAppDelegate.m in Sources */,
 				FEC3EB8618F9F32800D919D6 /* BluetoothSecondViewController.m in Sources */,
