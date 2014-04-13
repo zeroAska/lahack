@@ -13,6 +13,8 @@
 @end
 
 @implementation BluetoothFirstViewController
+- (IBAction)addUser:(id)sender {
+}
 
 - (void)viewDidLoad
 {
